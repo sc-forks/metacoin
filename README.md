@@ -1,2 +1,3 @@
-# metacoin
-Coverage for the default truffle project
+## Coverage for the default truffle project
+
+

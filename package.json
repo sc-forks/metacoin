@@ -1,0 +1,26 @@
+{
+  "name": "metacoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "solcover": "./node_modules/solcover/exec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sc-forks/metacoin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sc-forks/metacoin/issues"
+  },
+  "homepage": "https://github.com/sc-forks/metacoin#readme",
+  "devDependencies": {
+    "solcover": "git+https://github.com/JoinColony/solcover.git#truffle3"
+  }
+}
