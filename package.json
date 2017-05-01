@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "truffle test",
-    "solcover": "./node_modules/solcover/exec.js"
+    "solidity-coverage": "./node_modules/solidity-coverage/exec.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/sc-forks/metacoin#readme",
   "devDependencies": {
-    "solcover": "git+https://github.com/JoinColony/solcover.git#truffle3"
+    "solidity-coverage": "git+https://github.com/sc-forks/solidity-coverage.git"
   }
 }
