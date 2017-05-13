@@ -1,11 +1,11 @@
 ## Coverage reports for Metacoin, the default truffle project
 
-These were generated with [Solcover](https://github.com/JoinColony/solcover) by running:
+These were generated with [solidity-coverage](https://github.com/sc-forks/solidity-coverage) by running:
 ```
 $ truffle init
 $ npm init
-$ npm install --save-dev https://github.com/JoinColony/solcover.git#truffle3
-$ ./node_modules/solcover/exec.js
+$ npm install --save-dev https://github.com/sc-forks/solidity-coverage.git
+$ ./node_modules/.bin/solidity-coverage
 ```
 The coverage can be seen [here](https://sc-forks.github.io/metacoin/).
 
