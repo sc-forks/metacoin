@@ -4,7 +4,7 @@ These were generated with [solidity-coverage](https://github.com/sc-forks/solidi
 ```
 $ truffle init
 $ npm init
-$ npm install --save-dev https://github.com/sc-forks/solidity-coverage.git
+$ npm install --save-dev solidity-coverage
 $ ./node_modules/.bin/solidity-coverage
 ```
 The coverage can be seen [here](https://sc-forks.github.io/metacoin/).
