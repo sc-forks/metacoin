@@ -9,8 +9,9 @@ install:
   - npm install
 script:
   - npm test
-beforescript:
+before_script:
   - testrpc > /dev/null & 
-afterscript:
+  - sleep 5
+after_script:
   - npm run coverage
   - codecov
