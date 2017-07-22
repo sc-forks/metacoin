@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/sc-forks/metacoin#readme",
   "devDependencies": {
-    "solidity-coverage": "git+https://github.com/sc-forks/solidity-coverage.git"
+    "codecov": "^2.2.0",
+    "solidity-coverage": "^0.1.8"
   }
 }

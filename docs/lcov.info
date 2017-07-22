@@ -1,5 +1,5 @@
 TN:
-SF:/Users/user/Sites/metacoin/contracts/ConvertLib.sol
+SF:/Users/user/Sites/sc-forks/metacoin/contracts/ConvertLib.sol
 FN:4,convert
 FNF:1
 FNH:1
@@ -11,7 +11,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/user/Sites/metacoin/contracts/MetaCoin.sol
+SF:/Users/user/Sites/sc-forks/metacoin/contracts/MetaCoin.sol
 FN:15,MetaCoin
 FN:19,sendCoin
 FN:27,getBalanceInEth
