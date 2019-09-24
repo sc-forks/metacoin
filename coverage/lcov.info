@@ -1,5 +1,5 @@
 TN:
-SF:/Users/user/Sites/sc-forks/metacoin/contracts/ConvertLib.sol
+SF:/Users/cgewecke/code/sc-forks/metacoin/contracts/ConvertLib.sol
 FN:4,convert
 FNF:1
 FNH:1
@@ -11,17 +11,17 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/user/Sites/sc-forks/metacoin/contracts/MetaCoin.sol
-FN:15,MetaCoin
+SF:/Users/cgewecke/code/sc-forks/metacoin/contracts/MetaCoin.sol
+FN:15,constructor
 FN:19,sendCoin
 FN:27,getBalanceInEth
 FN:31,getBalance
 FNF:4
 FNH:4
-FNDA:2,MetaCoin
+FNDA:2,constructor
 FNDA:1,sendCoin
 FNDA:1,getBalanceInEth
-FNDA:9,getBalance
+FNDA:7,getBalance
 DA:16,2
 DA:20,1
 DA:21,1
@@ -29,7 +29,7 @@ DA:22,1
 DA:23,1
 DA:24,1
 DA:28,1
-DA:32,9
+DA:32,7
 LF:8
 LH:8
 BRDA:20,1,0,0

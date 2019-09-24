@@ -2,18 +2,20 @@
   "name": "metacoin",
   "version": "1.0.0",
   "description": "",
-  "main": "truffle.js",
+  "main": "truffle-config.js",
   "directories": {
+    "doc": "docs",
     "test": "test"
   },
   "scripts": {
     "test": "truffle test",
-    "coverage": "./node_modules/.bin/solidity-coverage"
+    "coverage": "truffle run coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sc-forks/metacoin.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -21,8 +23,7 @@
   },
   "homepage": "https://github.com/sc-forks/metacoin#readme",
   "devDependencies": {
-    "coveralls": "^2.13.1",
-    "solidity-coverage": "https://github.com/sc-forks/solidity-coverage.git"
-  },
-  "dependencies": {}
+    "coveralls": "^3.0.6",
+    "solidity-coverage": "0.7.0-beta.2"
+  }
 }
