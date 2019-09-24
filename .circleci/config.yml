@@ -7,7 +7,7 @@ aliases:
   - &install
     run:
       name: Install
-      command: sudo npm install -g truffle && npm install
+      command: rm -rf node_modules && npm install
 
 jobs:
   test:
