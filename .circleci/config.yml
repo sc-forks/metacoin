@@ -14,7 +14,7 @@ jobs:
           command: npx truffle run coverage
       - run:
           name: Coveralls
-          command: coverage/lcov.info | npx coveralls
+          command: cat coverage/lcov.info | npx coveralls
 
 workflows:
   version: 2
