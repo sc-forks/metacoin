@@ -1,36 +1,23 @@
 version: 2.0
-aliases:
-  - &defaults
-    docker:
-      - image: circleci/node:10
-
-  - &install
-    run:
-      name: Install
-      command: npm install
 
 jobs:
-  test:
-    <<: *defaults
-    steps:
-      - checkout
-      - *install
-      - run:
-          name: Test
-          command: npx truffle test
-
   coverage:
-    <<: *defaults
+    docker:
+      - image: circleci/node:10
     steps:
       - checkout
-      - *install
+      - run:
+          name: Install
+          command: npm install
       - run:
           name: Coverage
           command: npx truffle run coverage
+      - run:
+          name: Coveralls
+          command: coverage/lcov.info | coveralls
 
 workflows:
   version: 2
   build:
     jobs:
-      - test
       - coverage
