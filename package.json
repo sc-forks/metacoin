@@ -24,7 +24,7 @@
   "homepage": "https://github.com/sc-forks/metacoin#readme",
   "devDependencies": {
     "coveralls": "^3.0.6",
-    "solidity-coverage": "0.7.0-beta.2",
+    "solidity-coverage": "0.7.22",
     "truffle": "5.0.35"
   }
 }
